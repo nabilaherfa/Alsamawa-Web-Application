@@ -1,0 +1,134 @@
+.form {
+  margin: 70px auto;
+  width: 70vw;
+  padding: 5%;
+  height: auto;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 25px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffcfdf;
+  background-image: linear-gradient(315deg, #ffcfdf 30%, #cefdfc 54%);
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .physical , .form .personal {
+  margin:2% auto;
+} 
+
+.form h2{
+  margin-bottom: 3%;
+}
+
+.form-container h1 {
+  margin-top: 4%;
+  margin-left: 6%;
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: 600;
+  text-decoration: solid;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: #0D6990;
+}
+
+.form-inputs {
+  margin-bottom: 0.5rem;
+  width: 80%;
+}
+
+.form-inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 1.3em;
+  margin-bottom: 6px;
+  color: #595959;;
+}
+
+.form-input {
+  display: flex;
+  outline: none;
+  border-radius: 15px;
+  height: 5vh;
+  width: 60vw;
+  border-style: inset;
+  padding-left:2%;
+  margin-bottom: 20px;
+
+}
+
+.form-input::placeholder {
+  color: #b4bebe;
+  font-size: 16px;
+}
+
+.form-input-btn {
+  width: 18vw;
+  height: 6vh;
+  margin-top: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.form-img-2 {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-success {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 80px;
+  color: #fff;
+}
+
+#buttontaaruf{
+    display: inline-flex;
+    margin-top: 300px;
+    padding: 10px 30px;
+    background: linear-gradient(rgba(22,148,214,1), rgba(78,205,231,1));
+    color: white;
+    border-radius: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1.5em;
+}

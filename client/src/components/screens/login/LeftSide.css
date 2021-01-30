@@ -1,0 +1,20 @@
+img {
+ 	padding: 5px;
+	width: 60%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.background-text {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 60px;
+}
+
+section{
+    height: 860px;
+    width: 1300px;
+    background-size: cover;
+    background-position: center;
+}

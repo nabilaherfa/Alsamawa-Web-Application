@@ -1,0 +1,101 @@
+.left {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+  margin: 0 auto;
+  float: none; 
+  width: 1100px;
+  height: 900px;
+  left: 347px;
+  top: 64px;
+  bottom: 49px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.box {
+    position: absolute;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    width: 308px;
+    height: 830px;
+    left: 1500px;
+    right: 100px;
+    top: 132px;
+    bottom: 50px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.Slider {
+    height: 1080px;
+    width: 1920px;
+    background-size: cover;
+    background-position: center;
+}
+
+.buttona{
+	position: absolute;
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+	width: 180px;
+	height: 66px;
+	left: 1100px;
+	top: 850px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 37px;
+	background-color: #84DCED;
+	color: #FFFFFF;
+	border-radius: 90px;
+	text-align: center;
+}
+
+.tele{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 1340px;
+	top: 850px;
+	border-radius: 180px;
+	background: linear-gradient(325.78deg, #1B99D8 14.76%, #49C8E6 87.3%);
+	box-shadow: 4px 4px 25px rgba(42, 139, 242, 0.15), 2px 2px 25px rgba(42, 139, 242, 0.05), 4px 6px 10px rgba(42, 139, 242, 0.15);
+}
+
+.buttoni{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 400px;
+	top: 850px;
+	border-radius: 180px;
+	background: linear-gradient(325.78deg, #1B99D8 14.76%, #49C8E6 87.3%);
+	box-shadow: 4px 4px 25px rgba(42, 139, 242, 0.15), 2px 2px 25px rgba(42, 139, 242, 0.05), 4px 6px 10px rgba(42, 139, 242, 0.15);
+}
+
+.tulisan{
+	position: absolute;
+	width: 180px;
+	height: 26px;
+	left: 490px;
+	top: 50px;
+	color: #0D6990;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 26px;
+/* identical to box height, or 52% */
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.01em;
+	font-variant: small-caps;
+
+}
+
